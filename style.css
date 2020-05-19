@@ -1,0 +1,85 @@
+
+
+body {
+  background: #f7cac9;
+  font-family: Verdana, Geneva, sans-serif;
+  height: 100%;}
+  .header{
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 100%;
+  	height: 100px;
+  	border-bottom: 1px solid #6F808C;
+	font-size:100px;
+
+  }
+h1{
+	font-family: Dancing Script, Berlin Sana FB,Bookman Old Style,cursive;
+	font-size:50px;
+	text-align: center;
+}
+
+.done {
+  text-decoration: line-through;
+	
+
+}
+
+.empty{
+	font-size:40px;
+	text-align: center;
+
+}
+.center{
+	text-align: center;
+}
+input{
+	
+	padding: 20px;
+	font-size:25px;
+	border:2px solid #6F808C;
+	border-radius:10px;
+	width:50%;
+	outline: none;	
+	}
+input:hover{
+	background-color: #FFE7BA;
+	box-shadow: 10px black;
+}
+button{
+
+	font-style: cursive;
+	color:#6F808C;
+	font-size: 30px;
+	position: center;
+	border:2px solid #6F808C;
+	background-color: #f7cac9;
+	font-family: Arial Rounded MT, Berlin Sana FB, Bookman Old Style, Comic Sans MS;
+	border-radius: 30px;
+	margin: 10px;
+	outline: none;
+}
+button:hover{
+	background-color: #FFE7BA;
+	outline: none;
+}
+strong {
+    font-weight: bolder;
+    font-family: Arial Rounded MT, Berlin Sana FB;
+}
+li{
+
+	border:1px solid #6F808C;
+	border-width: 40%;
+	background-color: #FFE7BA;
+   outline: none;
+   font-size: 26px;
+   border-width: 40%;
+   height: 60px;
+   border-radius: 10px;
+   padding-left: 20px;
+   padding: 10px;
+   color: black;
+	position: relative;
+}
